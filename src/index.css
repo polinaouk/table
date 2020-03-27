@@ -25,6 +25,35 @@ code {
   width: 100%;
 }
 
+
+
+#wrapper {
+  display: flex;
+}
+
+#table {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  width: 600px;
+}
+
+#filters {
+  display: flex;
+  flex-direction: column;
+}
+
+#filters :first-child {
+  margin-bottom: 16px;
+}
+
+#pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
 #products td,
 #products th {
   border: 1px solid #ddd;
